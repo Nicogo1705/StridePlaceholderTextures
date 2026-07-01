@@ -1,0 +1,7 @@
+!Texture
+Id: 7e2b0530-f646-4e5f-a3b7-85faf83376fc
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/Grid.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

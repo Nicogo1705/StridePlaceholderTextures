@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "com.nicogo.placeholder-textures",
+  "name": "Placeholder Textures",
+  "authors": [{ "name": "Nicogo", "url": "https://github.com/Nicogo1705" }],
+  "description": "Fallback/debug textures for prototyping — Missing, Error, Undefined, checker, UV grid, flat normal and solids.",
+  "category": "Textures",
+  "tags": ["textures", "placeholder", "fallback", "debug", "prototype"],
+  "license": "MIT",
+  "thumbnail": "thumbnail.png",
+  "media": [
+    "AssetData/Resources/Missing.png",
+    "AssetData/Resources/Error.png",
+    "AssetData/Resources/Undefined.png",
+    "AssetData/Resources/Checker.png",
+    "AssetData/Resources/UVGrid.png",
+    "AssetData/Resources/Normal.png",
+    "AssetData/Resources/White.png",
+    "AssetData/Resources/Black.png",
+    "AssetData/Resources/Grey.png",
+    "AssetData/Resources/Grid.png"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,7 @@
+!Texture
+Id: b786d24d-692c-4d78-a3bc-07b103831562
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/Missing.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
