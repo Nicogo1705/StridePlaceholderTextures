@@ -1,8 +1,10 @@
 # Placeholder Textures
 
-**Fallback / debug textures for prototyping** in [Stride](https://stride3d.net) — one `Texture`
+**Fallback / debug textures for prototyping** in [Stride](https://www.stride3d.net/) — one `Texture`
 asset per pattern (512×512). Drop them in whenever an asset is missing, broken, or not made yet, so
 your scene never renders "nothing".
+
+## What's in the box
 
 | Texture | Use |
 | --- | --- |
@@ -15,11 +17,23 @@ your scene never renders "nothing".
 | `White` / `Black` / `Grey` | Solid fills for masks, tints, defaults |
 | `Grid` | Light reference grid |
 
-## Usage
+Every texture is a package **root asset**, so it is always compiled and loadable by URL from any
+project that references the pack.
 
-Open the project in Game Studio — the textures appear under the `Assets` folder, ready to drop onto
-sprites, UI images or materials. Each `Assets/<Name>.sdtex` sources `Resources/<Name>.png`.
+## Quick start
+
+Reference the pack, then drop a texture onto a sprite, UI image or material in Game Studio — or load
+one in code by its name:
+
+```csharp
+var missing = Content.Load<Texture>("Missing");   // Checker, Error, UVGrid, Normal, White…
+```
+
+## Demo
+
+Open `StridePlaceholderTextures.sln`, set **Demo.Windows** as the startup project and run — every
+pattern is shown on a grid of textured quads.
 
 ## License
 
-MIT.
+MIT. See [LICENSE.md](LICENSE.md).
