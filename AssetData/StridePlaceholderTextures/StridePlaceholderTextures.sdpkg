@@ -13,4 +13,14 @@ ResourceFolders:
 OutputGroupDirectories: {}
 ExplicitFolders: []
 Bundles: []
-RootAssets: []
+RootAssets:
+    - 0b262df8-e194-4f2f-a2d5-8ae21b4168e1:Undefined
+    - 0e6d5a6a-f5d4-4f01-9bfc-21cffc3b53df:Checker
+    - 0f69d623-2702-493b-a00e-d0ccf7d37a91:UVGrid
+    - 3b91a620-fce2-48e5-9652-9f854b5edda7:Normal
+    - 5fc03b79-8641-4351-a9d2-0d326fe4f294:Grey
+    - 648c2a1e-0885-403c-a319-d9025437b30b:Black
+    - 7e2b0530-f646-4e5f-a3b7-85faf83376fc:Grid
+    - a276c057-612e-4769-af41-4a183829f8cc:White
+    - b786d24d-692c-4d78-a3bc-07b103831562:Missing
+    - f368836e-2edb-4cf2-9a62-c6c5cf8056e5:Error
