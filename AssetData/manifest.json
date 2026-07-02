@@ -9,6 +9,7 @@
   "license": "MIT",
   "thumbnail": "thumbnail.png",
   "media": [
+    "media/screenshot.png",
     "AssetData/StridePlaceholderTextures/Resources/Missing.png",
     "AssetData/StridePlaceholderTextures/Resources/Error.png",
     "AssetData/StridePlaceholderTextures/Resources/Undefined.png",

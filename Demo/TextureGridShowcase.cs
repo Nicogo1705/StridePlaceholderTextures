@@ -23,8 +23,14 @@ namespace Demo
         // World-space distance between quad centers (both axes).
         public float Spacing = 1.4f;
 
-        // Rotation speed around Y, in radians per second.
-        public float RotationSpeed = 0.5f;
+        // Sway speed around Y, in radians per second.
+        public float RotationSpeed = 0.8f;
+
+        // Max sway angle around the facing direction, in radians (~28 deg) — the quads
+        // gently rock back and forth so the texture always stays readable.
+        public float SwayAmplitude = 0.5f;
+
+        private float _time;
 
         // =====================================================================================
         // Discovered texture Content URLs (STEP 1).
@@ -116,11 +122,11 @@ namespace Demo
 
         public override void Update()
         {
-            float dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
-            var delta = Quaternion.RotationY(RotationSpeed * dt);
+            _time += (float)Game.UpdateTime.Elapsed.TotalSeconds;
+            var rot = Quaternion.RotationY(SwayAmplitude * MathF.Sin(_time * RotationSpeed));
             foreach (var quad in quads)
             {
-                quad.Transform.Rotation *= delta;
+                quad.Transform.Rotation = rot;
             }
         }
     }
