@@ -9,16 +9,16 @@
   "license": "MIT",
   "thumbnail": "thumbnail.png",
   "media": [
-    "AssetData/Resources/Missing.png",
-    "AssetData/Resources/Error.png",
-    "AssetData/Resources/Undefined.png",
-    "AssetData/Resources/Checker.png",
-    "AssetData/Resources/UVGrid.png",
-    "AssetData/Resources/Normal.png",
-    "AssetData/Resources/White.png",
-    "AssetData/Resources/Black.png",
-    "AssetData/Resources/Grey.png",
-    "AssetData/Resources/Grid.png"
+    "AssetData/StridePlaceholderTextures/Resources/Missing.png",
+    "AssetData/StridePlaceholderTextures/Resources/Error.png",
+    "AssetData/StridePlaceholderTextures/Resources/Undefined.png",
+    "AssetData/StridePlaceholderTextures/Resources/Checker.png",
+    "AssetData/StridePlaceholderTextures/Resources/UVGrid.png",
+    "AssetData/StridePlaceholderTextures/Resources/Normal.png",
+    "AssetData/StridePlaceholderTextures/Resources/White.png",
+    "AssetData/StridePlaceholderTextures/Resources/Black.png",
+    "AssetData/StridePlaceholderTextures/Resources/Grey.png",
+    "AssetData/StridePlaceholderTextures/Resources/Grid.png"
   ],
   "dependencies": []
 }

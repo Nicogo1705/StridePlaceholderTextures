@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>StridePlaceholderTextures</RootNamespace>
+    <AssemblyName>StridePlaceholderTextures</AssemblyName>
+  </PropertyGroup>
+
+  <!-- Reusable placeholder/debug texture pack. The Stride version is detected from the Stride.* PackageReference. -->
+  <ItemGroup>
+    <PackageReference Include="Stride.Engine" Version="4.4.0.2" />
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.4.0.2" IncludeAssets="build;buildTransitive" />
+  </ItemGroup>
+
+</Project>
