@@ -1,4 +1,5 @@
 # Placeholder Textures
+[![Available on the Community Stride Asset Store](https://img.shields.io/badge/Community_Stride_Asset_Store-install-5b8def)](https://nicogo1705.github.io/AssetStore/a/com.nicogo.placeholder-textures)
 
 **Fallback / debug textures for prototyping** in [Stride](https://www.stride3d.net/) — one `Texture`
 asset per pattern (512×512). Drop them in whenever an asset is missing, broken, or not made yet, so
